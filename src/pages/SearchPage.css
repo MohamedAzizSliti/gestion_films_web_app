@@ -1,0 +1,26 @@
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 0;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+
+.Container-bg {
+  background-image: url('../assets/background-image.jpg');
+  background-size: fill;
+  background-repeat: repeat;
+  background-position: center center;
+  opacity: 0.8; /* Adjust the opacity as needed */
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+}
